@@ -6,6 +6,13 @@ export default {
         title: 'Home',
         handler: require('../components/Home')
     },
+        result: {
+        path: '/result',
+        method: 'get',
+        page: 'result',
+        title: 'Result',
+        handler: require('../components/Result')
+    },
     about: {
         path: '/about',
         method: 'get',
